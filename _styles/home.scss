@@ -1,6 +1,14 @@
 ---
 ---
 
+// <main> is a centered flex column that shrink-wraps each section to its
+// content width; a CSS grid then can't measure a definite width and collapses.
+// Force the homepage sections to fill the page so the hero + news grid size right.
+main.home > section {
+  align-self: stretch;
+  width: 100%;
+}
+
 // homepage hero on a grey band (separates it from the white header), news on white
 main.home > section:first-of-type {
   background: var(--background-alt);
