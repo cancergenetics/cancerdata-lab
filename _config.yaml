@@ -2,8 +2,12 @@
 title: UCD Cancer Data Lab
 subtitle: University College Dublin
 description: The UCD Cancer Data Lab uses large-scale data analysis to understand how genetic variation in cancer alters molecular interaction networks, and to identify ways to target these alterations therapeutically.
-header: images/background.jpg
-footer: images/background.jpg
+# clean, logo-only header/footer (no stock banner) — matches the old site
+header: ""
+footer: ""
+header-dark: false
+footer-dark: false
+logo-text: false
 proofer: false
 
 # site social media and other links
