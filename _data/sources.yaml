@@ -2,9 +2,12 @@
 # full title/authors/journal automatically into _data/citations.yaml.
 # To add a paper: add a line `- id: doi:<DOI>` (newest at top). That's it.
 
+# ---- 2025 ----
+- id: doi:10.1101/2025.03.31.645224   # ajmal-2025-evaluating (bioRxiv)
+- id: doi:10.1038/s41588-025-02222-1   # chan-2025 (CDS1/CDS2, Nature Genetics)
+- id: doi:10.1038/s44320-025-00122-4   # venkatesh-2025-compensation (published; was 2024 preprint)
 # ---- 2024 ----
 - id: doi:10.1101/2024.10.11.617835   # dennler-2024-evaluating
-- id: doi:10.1101/2024.09.26.615228   # venkatesh-2024-compensation
 # ---- 2023 ----
 - id: doi:10.15252/msb.202311987   # de-2022-paralog
 - id: doi:10.1007/978-3-031-30065-3_2   # pettitt-2023-parp

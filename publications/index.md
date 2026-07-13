@@ -14,7 +14,7 @@ A full list of publications from the lab. Citations are generated automatically 
 ## Highlighted
 
 {% include citation.html lookup="doi:10.1038/s41588-023-01557-x" style="rich" %}
-{% include citation.html lookup="doi:10.1101/2024.09.26.615228" style="rich" %}
+{% include citation.html lookup="doi:10.1038/s44320-025-00122-4" style="rich" %}
 {% include citation.html lookup="doi:10.15252/msb.202311987" style="rich" %}
 
 {% include section.html %}

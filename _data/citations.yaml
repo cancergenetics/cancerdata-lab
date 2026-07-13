@@ -1,19 +1,65 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2024.10.11.617835
-  title: Evaluating Sequence and Structural Similarity Metrics for Predicting Shared
-    Paralog Functions
+- id: doi:10.1101/2025.03.31.645224
+  title: Benchmarking Genetic Interaction Scoring Methods for Identifying Synthetic
+    Lethality from Combinatorial CRISPR Screens
   authors:
-  - Olivier Dennler
+  - Hamda Ajmal
+  - Sutanu Nandi
+  - Narod Kebabci
   - Colm J. Ryan
   publisher: openRxiv
-  date: '2024-10-13'
-  link: https://doi.org/hb98sq
+  date: '2025-04-01'
+  link: https://doi.org/hb98x2
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2024.09.26.615228
-  title: Paralog protein compensation preserves protein-protein interaction networks
-    following gene loss in cancer
+- id: doi:10.1038/s41588-025-02222-1
+  title: The synthetic lethal interaction between CDS1 and CDS2 is a vulnerability
+    in uveal melanoma and across multiple tumor types
+  authors:
+  - Pui Ying Chan
+  - Diana Alexander
+  - Ishan Mehta
+  - Larissa Satiko Alcantara Sekimoto Matsuyama
+  - Victoria Harle
+  - "Rebeca Olvera-Le\xF3n"
+  - Jun Sung Park
+  - "Fernanda G. Arriaga-Gonz\xE1lez"
+  - Louise van der Weyden
+  - Saamin Cheema
+  - Vivek Iyer
+  - Victoria Offord
+  - David Barneda
+  - Phillip T. Hawkins
+  - Len Stephens
+  - Zuza Kozik
+  - Michael Woods
+  - Kim Wong
+  - Gabriel Balmus
+  - Alessandro Vinceti
+  - Nicola A. Thompson
+  - Martin Del Castillo Velasco-Herrera
+  - Lodewyk Wessels
+  - Joris van de Haar
+  - "Emanuel Gon\xE7alves"
+  - Sanju Sinha
+  - "Martha Estefania V\xE1zquez-Cruz"
+  - Luisa Bisceglia
+  - Francesco Raimondi
+  - Jyoti Choudhary
+  - Sumeet Patiyal
+  - Anjan Venkatesh
+  - Francesco Iorio
+  - Colm J. Ryan
+  - David J. Adams
+  publisher: Nature Genetics
+  date: '2025-07-01'
+  link: https://doi.org/g9sjtx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s44320-025-00122-4
+  title: Proteomic compensation by paralogs preserves protein interaction networks
+    after gene loss in cancer
   authors:
   - Anjan Venkatesh
   - Niall Quinn
@@ -24,10 +70,21 @@
   - Olivier Dennler
   - Kieran Wynne
   - Alexander von Kriegsheim
+  - Colm J Ryan
+  publisher: Molecular Systems Biology
+  date: '2025-05-28'
+  link: https://doi.org/hb98x3
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2024.10.11.617835
+  title: Evaluating Sequence and Structural Similarity Metrics for Predicting Shared
+    Paralog Functions
+  authors:
+  - Olivier Dennler
   - Colm J. Ryan
   publisher: openRxiv
-  date: '2024-09-29'
-  link: https://doi.org/hb98sr
+  date: '2024-10-13'
+  link: https://doi.org/hb98sq
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.15252/msb.202311987

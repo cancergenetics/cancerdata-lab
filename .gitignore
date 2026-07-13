@@ -15,3 +15,6 @@ node_modules
 
 # manubot local cache
 _cite/.cache
+
+# never commit archive snapshots
+*.zip
