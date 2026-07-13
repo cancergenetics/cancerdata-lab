@@ -8,10 +8,24 @@
 .home-news .post-excerpt {
   margin: 0;
   height: 100%;
+  flex-direction: column;
+}
+
+.home-news .post-excerpt-image {
+  width: unset;
+  height: 180px;
+}
+
+.home-news .post-info {
+  display: none;
 }
 
 main > section:first-of-type .cols {
   align-items: center;
+}
+
+main > section:first-of-type .cols img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=home.css.map */
