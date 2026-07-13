@@ -14,7 +14,7 @@ We are based in the [Conway Institute](https://www.ucd.ie/conway/) and the [Scho
 
 {% capture hero_logo %}
 
-{% include figure.html image="images/logo-wordmark.png" %}
+![UCD Cancer Data Lab]({{ '/images/logo-wordmark.png' | relative_url }})
 
 {% endcapture %}
 

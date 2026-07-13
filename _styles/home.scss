@@ -12,9 +12,24 @@
 .home-news .post-excerpt {
   margin: 0;
   height: 100%;
+  flex-direction: column;
 }
 
-// vertically centre the hero text against the logo
+// clean teaser cards: image, title, excerpt only (like the old site)
+.home-news .post-excerpt-image {
+  width: unset;
+  height: 180px;
+}
+
+.home-news .post-info {
+  display: none;
+}
+
+// vertically centre the hero text against the logo, and give it room to breathe
 main > section:first-of-type .cols {
   align-items: center;
+}
+
+main > section:first-of-type .cols img {
+  width: 100%;
 }
