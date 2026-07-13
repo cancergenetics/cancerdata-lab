@@ -1,7 +1,7 @@
 ---
 title: Contact
 nav:
-  order: 6
+  order: 5
   tooltip: How to reach us
 ---
 

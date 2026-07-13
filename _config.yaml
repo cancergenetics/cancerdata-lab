@@ -7,7 +7,7 @@ header: ""
 footer: ""
 header-dark: false
 footer-dark: false
-logo-text: false
+show-subtitle: false
 proofer: false
 
 # site social media and other links
