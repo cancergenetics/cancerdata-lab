@@ -1,6 +1,23 @@
 ---
 ---
 
+// homepage hero on a grey band (separates it from the white header), news on white
+main.home > section:first-of-type {
+  background: var(--background-alt);
+}
+main.home > section:nth-of-type(2) {
+  background: var(--background);
+}
+
+// vertically centre the hero text against the logo
+main.home > section:first-of-type .cols {
+  align-items: center;
+}
+
+main.home > section:first-of-type .cols img {
+  width: 100%;
+}
+
 // homepage recent-news card grid (like the old site)
 .home-news {
   display: grid;
@@ -9,13 +26,13 @@
   margin: 30px 0;
 }
 
+// clean teaser cards: image, title, excerpt only (like the old site)
 .home-news .post-excerpt {
   margin: 0;
   height: 100%;
   flex-direction: column;
 }
 
-// clean teaser cards: image, title, excerpt only (like the old site)
 .home-news .post-excerpt-image {
   width: unset;
   height: 180px;
@@ -23,13 +40,4 @@
 
 .home-news .post-info {
   display: none;
-}
-
-// vertically centre the hero text against the logo, and give it room to breathe
-main > section:first-of-type .cols {
-  align-items: center;
-}
-
-main > section:first-of-type .cols img {
-  width: 100%;
 }
