@@ -4,16 +4,16 @@ This repo is fully populated and ready to publish. Follow these steps once.
 
 ## 1. Create the GitHub repo and push
 
-Create a new **empty public** repo (e.g. `cancergenetics/cancerdata-lab`) on
-GitHub — do **not** initialise it with a README. Then, from this folder:
+Create the **empty public** repo [`cancergenetics/cancerdata-lab`](https://github.com/new)
+on GitHub — do **not** initialise it with a README, .gitignore, or license. Then,
+from this folder:
 
 ```bash
-git remote add origin https://github.com/cancergenetics/cancerdata-lab.git
-git branch -M main
 git push -u origin main
 ```
 
-(This folder already has a git repo with an initial commit.)
+(This folder already has a git repo with commits and the `origin` remote set to
+`https://github.com/cancergenetics/cancerdata-lab.git`.)
 
 ## 2. Enable GitHub Pages
 
@@ -37,6 +37,7 @@ their DOIs into `_data/citations.yaml`) and **build-site** (deploys to
 
 ```
 https://cancergenetics.github.io/cancerdata-lab/
+
 ```
 
 Check the **Actions** tab is green, and confirm the Publications page lists all
