@@ -12,3 +12,6 @@ package.json
 package-lock.json
 yarn.lock
 node_modules
+
+# manubot local cache
+_cite/.cache
