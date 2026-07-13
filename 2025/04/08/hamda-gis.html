@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Hamda's paper benchmarking genetic interaction scoring methods | UCD Cancer Data Lab</title>
+
+<link rel="icon" href="/cancerdata-lab/images/icon.png">
+
+<meta name="title" content="Hamda's paper benchmarking genetic interaction scoring methods">
+<meta name="description" content="University College Dublin. The UCD Cancer Data Lab uses large-scale data analysis to understand how genetic variation in cancer alters molecular interaction networks, and to identify ways to target these alterations therapeutically.">
+
+<meta property="og:title" content="Hamda's paper benchmarking genetic interaction scoring methods">
+<meta property="og:site_title" content="UCD Cancer Data Lab">
+<meta property="og:description" content="University College Dublin. The UCD Cancer Data Lab uses large-scale data analysis to understand how genetic variation in cancer alters molecular interaction networks, and to identify ways to target these alterations therapeutically.">
+<meta property="og:url" content="https://cancergenetics.github.io/cancerdata-lab">
+<meta property="og:image" content="/cancerdata-lab/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Hamda's paper benchmarking genetic interaction scoring methods">
+<meta property="twitter:description" content="University College Dublin. The UCD Cancer Data Lab uses large-scale data analysis to understand how genetic variation in cancer alters molecular interaction networks, and to identify ways to target these alterations therapeutically.">
+<meta property="twitter:url" content="https://cancergenetics.github.io/cancerdata-lab">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/cancerdata-lab/images/share.jpg">
+
+
+  <meta name="author" content="colm">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2026-07-13T18:34:38+00:00">
+  <meta property="article:published_time" content="2025-04-08T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-07-13T18:34:38+00:00">
+  <meta name="revised" content="2026-07-13T18:34:38+00:00">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "BlogPosting",
+      "author": { "@type": "Person", "name": "Hamda&apos;s paper benchmarking genetic interaction scoring methods" },
+      "datePublished": "2025-04-08T00:00:00+00:00",
+      "dateModified": "2026-07-13T18:34:38+00:00",
+    
+    "name": "Hamda&apos;s paper benchmarking genetic interaction scoring methods",
+    "description": "University College Dublin. The UCD Cancer Data Lab uses large-scale data analysis to understand how genetic variation in cancer alters molecular interaction networks, and to identify ways to target these alterations therapeutically.",
+    "headline": "Hamda&apos;s paper benchmarking genetic interaction scoring methods",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/cancerdata-lab/images/icon.png" }
+    },
+    "url": "https://cancergenetics.github.io/cancerdata-lab"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://cancergenetics.github.io/cancerdata-lab/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/cancerdata-lab/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/cancerdata-lab/_styles/util.css" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/cancerdata-lab/_scripts/anchors.js"></script>
+
+  <script src="/cancerdata-lab/_scripts/dark-mode.js"></script>
+
+  <script src="/cancerdata-lab/_scripts/fetch-tags.js"></script>
+
+  <script src="/cancerdata-lab/_scripts/search.js"></script>
+
+  <script src="/cancerdata-lab/_scripts/site-search.js"></script>
+
+  <script src="/cancerdata-lab/_scripts/table-wrap.js"></script>
+
+  <script src="/cancerdata-lab/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/cancerdata-lab')" data-dark="false">
+  <a href="/cancerdata-lab/" class="home">
+    
+      <span class="logo">
+        
+          <img src="/cancerdata-lab/images/logo.png" alt="logo">
+        
+      </span>
+    
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/cancerdata-lab/research/" data-tooltip="What we work on">
+          Research
+        </a>
+      
+    
+      
+        <a href="/cancerdata-lab/publications/" data-tooltip="Papers from the lab">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/cancerdata-lab/team/" data-tooltip="The people in the lab">
+          Team
+        </a>
+      
+    
+      
+        <a href="/cancerdata-lab/news/" data-tooltip="Updates from the lab">
+          News
+        </a>
+      
+    
+      
+        <a href="/cancerdata-lab/join/" data-tooltip="Openings and fellowships">
+          Join Us
+        </a>
+      
+    
+      
+        <a href="/cancerdata-lab/contact/" data-tooltip="How to reach us">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="1" style="--image: url('/cancerdata-lab/images/news/25-04-08-hamda-gis.png')">
+    <!--
+  <background>images/news/25-04-08-hamda-gis.png</background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">Hamda's paper benchmarking genetic interaction scoring methods</h1>
+
+<div class="post-info">
+  
+    
+    
+      
+      
+        
+
+
+
+<div class="portrait-wrapper">
+  <a href="/cancerdata-lab/members/colm.html" class="portrait" data-style="tiny" aria-label="Colm J. Ryan">
+    
+      <i class="icon fa-solid fa-microscope"></i>
+    
+
+    <img src="/cancerdata-lab/images/members/colm.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Colm J. Ryan
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Principal Investigator
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University College Dublin
+      </span>
+    
+  </a>
+</div>
+
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>April 08, 2025</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>July 13, 2026</span>
+    </span>
+  
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p>Congrats to Hamda on her first publication with the lab, Benchmarking Genetic Interaction Scoring Methods for Identifying Synthetic Lethality from Combinatorial CRISPR Screens, up now on <a href="https://www.biorxiv.org/content/10.1101/2025.03.31.645224v1">bioRxiv</a>.</p>
+
+<p>Combinatorial CRISPR screens, where two genes are perturbed simultaneously, are increasingly used to identify new synthetic lethal targets in cancer. They’ve been particularly popular for identifying synthetic lethal relationships between paralog pairs. In order to identify synthetic lethal hits from these screens it is necessary to identify and quantify genetic interactions – instances where the effect observed from perturbing two genes diverges from what is expected based on perturbing each gene individually. Multiple scoring pipelines for quantifying genetic interactions from these screens have been published, but comparison across pipelines has been limited (in part due to the lack of an external benchmark). Indeed most published screens use distinct scoring systems, making their results difficult to compare.</p>
+
+<p>In this work we propose that paralog synthetic lethal interactions identified from DepMap single-gene CRISPR screens can be used as an external benchmark. These pairs have been found to be synthetic lethal across cell lines from diverse cancer types by associating the loss of one gene with increased sensitivity to inhibition of another. They are therefore at least somewhat robust to genetic background and unlikely to be cell line specific. This is not a perfect benchmark, as some pairs that are synthetic lethal in only specific contexts will be missed, but overall gene pairs found to be synthetic in a panel of cell lines should get a higher score than those where there is no evidence of synthetic lethality in the panel.</p>
+
+<p>To compare scoring systems using this approach, Hamda rescored 5 published combinatorial CRISPR datasets (total 21 screens) using 5 distinct scoring systems. Getting the scoring systems to work across multiple screens and rescoring everything was a lot of work but allows us to compare scoring systems in a systematic fashion. We found that no single method performs best across all screens but identify two methods that perform well across most datasets.</p>
+
+<p>You can read the full paper <a href="https://www.biorxiv.org/content/10.1101/2025.03.31.645224v1">here</a> for all of the comparisons!</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<div class="post-nav">
+  <span>
+    
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/cancerdata-lab/2025/02/19/Anjan-Viva.html">
+        Congratulations to Dr. Anjan Venkatesh
+      </a>
+    
+  </span>
+  <span>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/cancerdata-lab')" data-dark="false" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:colm.ryan@ucd.ie" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=laT87KUAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/cancergenetics" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://twitter.com/colmr" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    UCD Cancer Data Lab
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
