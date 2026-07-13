@@ -1,3 +1,19 @@
+main.home > section:first-of-type {
+  background: var(--background-alt);
+}
+
+main.home > section:nth-of-type(2) {
+  background: var(--background);
+}
+
+main.home > section:first-of-type .cols {
+  align-items: center;
+}
+
+main.home > section:first-of-type .cols img {
+  width: 100%;
+}
+
 .home-news {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -18,14 +34,6 @@
 
 .home-news .post-info {
   display: none;
-}
-
-main > section:first-of-type .cols {
-  align-items: center;
-}
-
-main > section:first-of-type .cols img {
-  width: 100%;
 }
 
 /*# sourceMappingURL=home.css.map */
