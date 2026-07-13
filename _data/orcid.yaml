@@ -1,0 +1,4 @@
+# ORCID auto-import is disabled — publications are curated by DOI in sources.yaml.
+# To auto-import every work for an ORCID instead, add an entry like:
+#   - orcid: 0000-0000-0000-0000
+[]

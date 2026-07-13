@@ -1,0 +1,66 @@
+# Publications — one DOI per paper. Manubot's update-citations Action fetches
+# full title/authors/journal automatically into _data/citations.yaml.
+# To add a paper: add a line `- id: doi:<DOI>` (newest at top). That's it.
+
+# ---- 2024 ----
+- id: doi:10.1101/2024.10.11.617835   # dennler-2024-evaluating
+- id: doi:10.1101/2024.09.26.615228   # venkatesh-2024-compensation
+# ---- 2023 ----
+- id: doi:10.15252/msb.202311987   # de-2022-paralog
+- id: doi:10.1007/978-3-031-30065-3_2   # pettitt-2023-parp
+- id: doi:10.1016/j.cels.2023.04.005   # ryan-2023-gi
+- id: doi:10.1038/s41588-023-01557-x   # ryan-2023-sl
+- id: doi:10.1016/j.trecan.2023.02.002   # ryan-2023-targeting
+- id: doi:10.1093/narcan/zcad056   # tudose-2023-GNR
+- id: doi:10.26508/lsa.202201885   # upadhya-2023-antibody
+# ---- 2022 ----
+- id: doi:10.1016/j.crmeth.2022.100288   # upadhya-2021-experimental
+# ---- 2021 ----
+- id: doi:10.1016/j.cels.2021.08.006   # de-2021-comprehensive
+- id: doi:10.1016/j.ctarc.2021.100376   # marcone-2021-proteomic
+- id: doi:10.1371/journal.pgen.1009354   # parkhitko-2021-cross
+# ---- 2020 ----
+- id: doi:10.1038/s41467-019-14224-9   # kennedy-2020-extensive
+- id: doi:10.7554/elife.58925   # lord-2020-integrative
+- id: doi:10.1371/journal.pcbi.1007578   # novavcek-2020-accurate
+# ---- 2019 ----
+- id: doi:10.1371/journal.pgen.1008466   # de-2019-paralog
+- id: doi:10.1158/2159-8290.CD-18-0389   # oser-2019-cells
+# ---- 2018 ----
+- id: doi:10.1158/2159-8290.CD-17-0603   # bajrami-2018-cadherin
+- id: doi:10.1038/s41388-018-0368-z   # brough-2018-identification
+- id: doi:10.1007/978-1-4939-7493-1_5   # campbell-2018-identifying
+- id: doi:10.1038/s41598-018-29043-z   # holme-2018-chemosensitivity
+- id: doi:10.1042/EBC20180002   # kolch-2018-systems
+- id: doi:10.1101/pdb.prot091983   # roguev-2018-genetic
+- id: doi:10.1101/pdb.top079905   # roguev-2018-high
+- id: doi:10.1016/j.trecan.2018.08.003   # ryan-2018-synthetic
+# ---- 2017 ----
+- id: doi:10.1016/j.cels.2017.06.002   # bridgett-2017-cancergd
+- id: doi:10.1101/gad.295287.116   # nissen-2017-histone
+- id: doi:10.1016/j.cels.2017.09.011   # ryan-2017-compendium
+# ---- 2016 ----
+- id: doi:10.1016/j.celrep.2016.02.023   # campbell-2016-large
+- id: doi:10.1038/ncomms13837   # williamson-2016-atr
+# ---- 2015 ----
+- id: doi:10.1186/s12864-015-1300-3   # fitzpatrick-2015-genome
+- id: doi:10.1371/journal.pgen.1005074   # krogan-2015-genetic
+# ---- 2014 ----
+- id: doi:10.1016/j.celrep.2014.01.029   # kim-2014-identification
+- id: doi:10.1016/j.ccr.2014.08.008   # ryan-2014-daisy
+- id: doi:10.1186/s13073-014-0068-4   # tosti-2014-evolutionarily
+# ---- 2013 ----
+- id: doi:10.1016/j.celrep.2013.05.007   # haber-2013-systematic
+- id: doi:10.1016/j.celrep.2013.11.040   # kliegman-2013-chemical
+- id: doi:10.1093/gbe/evt074   # ryan-2013-all
+- id: doi:10.1038/nrg3574   # ryan-2013-high
+# ---- 2012 ----
+- id: doi:10.1007/978-1-4614-3567-9_7   # beltrao-2012-comparative
+- id: doi:10.1371/journal.pgen.1003101   # moehle-2012-yeast
+- id: doi:10.1016/j.molcel.2012.05.028   # ryan-2012-hierarchical
+# ---- 2011 ----
+- id: doi:10.1186/1752-0509-5-80   # ryan-2011-improved
+- id: doi:10.1007/978-1-61779-276-2_17   # ryan-2011-imputing
+- id: doi:10.1128/mcb.05182-11   # wang-2011-key
+# ---- 2010 ----
+- id: doi:10.1186/1471-2105-11-197   # ryan-2010-missing
