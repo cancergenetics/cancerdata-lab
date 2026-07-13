@@ -16,11 +16,22 @@ main.home > section:first-of-type .cols img {
 
 .home-news {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  width: 100%;
   margin: 30px 0;
 }
 
+@media (max-width: 750px) {
+  .home-news {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .home-news {
+    grid-template-columns: 1fr;
+  }
+}
 .home-news .post-excerpt {
   margin: 0;
   height: 100%;
