@@ -207,6 +207,10 @@
   
 
   
+    <link href="/cancerdata-lab/_styles/home.css" rel="stylesheet">
+  
+
+  
     <link href="/cancerdata-lab/_styles/icon.css" rel="stylesheet">
   
 
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -379,15 +385,16 @@
 
 
 
-<header class="background" style="--image: url('/cancerdata-lab')" data-dark="false" data-big>
+<header class="background" style="--image: url('/cancerdata-lab')" data-dark="false">
   <a href="/cancerdata-lab/" class="home">
     
-      <span class="logo">
+    
+      <span class="title-text" data-tooltip="Home">
         
-          <img src="/cancerdata-lab/images/logo.png" alt="logo">
+          <span class="title">UCD Cancer Data Lab</span>
+        
         
       </span>
-    
     
   </a>
 
@@ -421,14 +428,14 @@
       
     
       
-        <a href="/cancerdata-lab/join/" data-tooltip="Openings and fellowships">
-          Join Us
+        <a href="/cancerdata-lab/contact/" data-tooltip="How to reach us">
+          Contact
         </a>
       
     
       
-        <a href="/cancerdata-lab/contact/" data-tooltip="How to reach us">
-          Contact
+        <a href="/cancerdata-lab/join/" data-tooltip="Openings and fellowships">
+          Join Us
         </a>
       
     
@@ -453,7 +460,11 @@
   
 
   <section class="background" data-size="page">
-    <p>The UCD Cancer Data Lab, led by <a href="/cancerdata-lab/team">Dr. Colm J. Ryan</a>, uses large-scale data analysis to understand how genetic variation in cancer alters molecular interaction networks, and to identify ways to target these alterations therapeutically.</p>
+    <div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<p>The UCD Cancer Data Lab, led by <a href="/cancerdata-lab/team">Dr. Colm J. Ryan</a>, uses large-scale data analysis to understand how genetic variation in cancer alters molecular interaction networks, and to identify ways to target these alterations therapeutically.</p>
 
 <p>We are based in the <a href="https://www.ucd.ie/conway/">Conway Institute</a> and the <a href="https://www.ucd.ie/medicine/">School of Medicine</a> at University College Dublin, with members also affiliated with <a href="https://www.ucd.ie/sbi/">Systems Biology Ireland</a> and the <a href="https://genomicsdatascience.ie">SFI Centre for Research Training in Genomics Data Science</a>.</p>
 
@@ -461,7 +472,7 @@
     <a class="button" href="/cancerdata-lab/research" data-style="" aria-label="fa-solid fa-microscope">
       <i class="icon fa-solid fa-microscope"></i>
       
-        <span>Our research</span>
+        <span>Research Overview</span>
       
     </a>
   </div>
@@ -474,91 +485,23 @@
       
     </a>
   </div>
-  </section>
 
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<h2 id="highlights">Highlights</h2>
-
-<div class="feature">
-  <a href="/cancerdata-lab/research" class="feature-image" aria-label="Our Research">
-    <img src="/cancerdata-lab/images/research/Paralogs.png" loading="lazy" alt="Our Research" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Research</p>
-    
-    
-<p>We develop computational approaches to find and predict synthetic lethal interactions, to understand how paralogs buffer genetic perturbations, and to model how mutations rewire molecular networks in cancer.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/cancerdata-lab/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Read about our research</span>
-      
-    </a>
-  </div>
-
-
-  </div>
 </div>
-
-<div class="feature" data-flip="">
-  <a href="/cancerdata-lab/publications" class="feature-image" aria-label="Our Publications">
-    <img src="/cancerdata-lab/images/research/SyntheticLethality.png" loading="lazy" alt="Our Publications" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/cancerdata-lab/images/logo-wordmark.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
   </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Publications</p>
-    
-    
-<p>Our papers are cited automatically from their DOIs and kept up to date.</p>
+  
+</figure>
 
-<div class="button-wrapper">
-    <a class="button" href="/cancerdata-lab/publications" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Browse our publications</span>
-      
-    </a>
-  </div>
-
-
-  </div>
 </div>
-
-<div class="feature">
-  <a href="/cancerdata-lab/team" class="feature-image" aria-label="Our Team">
-    <img src="/cancerdata-lab/images/research/NetworkEffects.png" loading="lazy" alt="Our Team" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Team</p>
-    
-    
-<p>We are a supportive, interdisciplinary team of computational and cancer biologists.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/cancerdata-lab/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Meet the team</span>
-      
-    </a>
-  </div>
-
-
-  </div>
+  
 </div>
   </section>
 
@@ -573,13 +516,298 @@
   <size></size>
 -->
 
-<h2 id="latest-news">Latest news</h2>
+<h2 id="recent-news">
+<i class="icon fa-solid fa-newspaper"></i>Recent news</h2>
+
+<div class="home-news">
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/cancerdata-lab/2025/04/08/hamda-gis.html" class="post-excerpt-image" aria-label="Hamda s paper benchmarking genetic interaction scoring methods">
+        <img src="/cancerdata-lab/images/news/25-04-08-hamda-gis.png" alt="Hamda s paper benchmarking genetic interaction scoring methods" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/cancerdata-lab/2025/04/08/hamda-gis.html">Hamda's paper benchmarking genetic interaction scoring methods</a>
+
+      <div class="post-info">
+  
+    
+    
+      
+      
+        
+
+
+
+<div class="portrait-wrapper">
+  <a href="/cancerdata-lab/members/colm.html" class="portrait" data-style="tiny" aria-label="Colm J. Ryan">
+    
+      <i class="icon fa-solid fa-microscope"></i>
+    
+
+    <img src="/cancerdata-lab/images/members/colm.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Colm J. Ryan
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Principal Investigator
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University College Dublin
+      </span>
+    
+  </a>
+</div>
+
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>April 08, 2025</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>July 13, 2026</span>
+    </span>
+  
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="Congrats to Hamda on her first publication with the lab, Benchmarking Genetic Interaction Scoring Methods for Identifying Synthetic Lethality from Combinatorial CRISPR Screens, up now on bioRxiv.Combinatorial CRISPR screens, where two genes are perturbed simultaneously, are increasingly used to identify new synthetic lethal targets in cancer. They ve been particularly popular for identifying synthetic lethal relationships between paralog pairs. In order to identify synthetic lethal hits from these screens it is necessary to identify and quantify genetic interactions instances where the effect observed from perturbing two genes diverges from what is expected based on perturbing each gene individually. Multiple scoring pipelines for quantifying genetic interactions from these screens have been published, but comparison across pipelines has been limited in part due to the lack of an external benchmark . Indeed most published screens use distinct scoring systems, making their results difficult to compare.In this work we propose that paralog synthetic lethal interactions identified from DepMap single-gene CRISPR screens can be used as an external benchmark. These pairs have been found to be synthetic lethal across cell lines from diverse cancer types by associating the loss of one gene with increased sensitivity to inhibition of another. They are therefore at least somewhat robust to genetic background and unlikely to be cell line specific. This is not a perfect benchmark, as some pairs that are synthetic lethal in only specific contexts will be missed, but overall gene pairs found to be synthetic in a panel of cell lines should get a higher score than those where there is no evidence of synthetic lethality in the panel.To compare scoring systems using this approach, Hamda rescored 5 published combinatorial CRISPR datasets total 21 screens using 5 distinct scoring systems. Getting the scoring systems to work across multiple screens and rescoring everything was a lot of work but allows us to compare scoring systems in a systematic fashion. We found that no single method performs best across all screens but identify two methods that perform well across most datasets.You can read the full paper here for all of the comparisons">
+        Congrats to Hamda on her first publication with the lab, Benchmarking Genetic Interaction Scoring Methods for Identifying Synthetic Lethality from Combinatorial CRISPR Screens, up now on bioRxiv.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/cancerdata-lab/2025/02/19/Anjan-Viva.html" class="post-excerpt-image" aria-label="Congratulations to Dr. Anjan Venkatesh">
+        <img src="/cancerdata-lab/images/news/25-02-19-Anjan-Viva.jpeg" alt="Congratulations to Dr. Anjan Venkatesh" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/cancerdata-lab/2025/02/19/Anjan-Viva.html">Congratulations to Dr. Anjan Venkatesh</a>
+
+      <div class="post-info">
+  
+    
+    
+      
+      
+        
+
+
+
+<div class="portrait-wrapper">
+  <a href="/cancerdata-lab/members/colm.html" class="portrait" data-style="tiny" aria-label="Colm J. Ryan">
+    
+      <i class="icon fa-solid fa-microscope"></i>
+    
+
+    <img src="/cancerdata-lab/images/members/colm.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Colm J. Ryan
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Principal Investigator
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University College Dublin
+      </span>
+    
+  </a>
+</div>
+
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>February 19, 2025</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>July 13, 2026</span>
+    </span>
+  
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="Congratulations to Dr. Anjan Venkatesh, who successfully defended his thesis A systematic study of paralog and protein complex response to gene loss in cancer on February 14th .Anjan has been a member of the group since 2020, joining us from the excellent SFI Centre for Research Training in Genomics Data Science. Prior to joining our lab, Anjan worked with Prof. Ken Wolfe perhaps surprisinglym not on paralogs . You can read the first part of Anjan s thesis on biorxiv. The second part is still in the oven.Many thanks to the external examiner, Prof. Pedro Beltrao, and internal examiner, Prof. Denis Shields. Thanks also to Dr. Dimitris Chatzopoulos for chairing the viva and making sure everything ran smoothly.">
+        Congratulations to Dr. Anjan Venkatesh, who successfully defended his thesis ‘A systematic study of paralog and protein complex response to gene loss in cancer’ on February 14th 💘.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/cancerdata-lab/2024/11/20/Cosmin-Viva.html" class="post-excerpt-image" aria-label="Congratulations to Dr. Cosmin Tudose">
+        <img src="/cancerdata-lab/images/news/24-11-20-Cosmin-Viva.jpg" alt="Congratulations to Dr. Cosmin Tudose" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/cancerdata-lab/2024/11/20/Cosmin-Viva.html">Congratulations to Dr. Cosmin Tudose</a>
+
+      <div class="post-info">
+  
+    
+    
+      
+      
+        
+
+
+
+<div class="portrait-wrapper">
+  <a href="/cancerdata-lab/members/colm.html" class="portrait" data-style="tiny" aria-label="Colm J. Ryan">
+    
+      <i class="icon fa-solid fa-microscope"></i>
+    
+
+    <img src="/cancerdata-lab/images/members/colm.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/cancerdata-lab/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Colm J. Ryan
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Principal Investigator
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University College Dublin
+      </span>
+    
+  </a>
+</div>
+
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>November 20, 2024</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>July 13, 2026</span>
+    </span>
+  
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="Congratulations to Dr. Cosmin Tudose, who successfully defended his thesis Defining molecular vulnerabilities in childhood leukaemia through biological network analysis on November 19th.Cosmin has been a member of the Bond and Ryan groups since 2020, joining us from the excellent SFI Centre for Research Training in Genomics Data Science. You can read the first part of Cosmin s thesis, published in NAR Cancer, here. The second part is still in the oven.Many thanks to the external examiner, Dr. Lisa Russell , and internal examiner, Prof. David MacHugh. Thanks also to Dr. David Gomez for chairing the viva and making sure everything ran smoothly.">
+        Congratulations to Dr. Cosmin Tudose, who successfully defended his thesis ‘Defining molecular vulnerabilities in childhood leukaemia through biological network analysis’ on November 19th.
+
+      </p>
+    </div>
+  </div>
+</div>
+</div>
 
 <div class="button-wrapper">
     <a class="button" href="/cancerdata-lab/news" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>Read the latest news</span>
+        <span>All news</span>
       
     </a>
   </div>
