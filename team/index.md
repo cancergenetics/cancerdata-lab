@@ -19,4 +19,4 @@ We are a supportive and collaborative interdisciplinary research group based in 
 
 ## Alumni
 
-{% include list.html data="members" component="portrait" filter="group == 'alumni'" style="small" %}
+{% include list.html data="members" component="portrait" filter="group == 'alumni'" %}

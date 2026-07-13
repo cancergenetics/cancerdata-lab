@@ -10,4 +10,4 @@ We are currently looking for computational postdoctoral fellows! More details [h
 
 Photo above is from a lab hike during COVID times. In Dublin we cannot promise constant sunshine, but we can promise the benefits of living in a capital city coupled with close proximity to the sea and some lovely scenery.
 
-![Photograph of the lab on a hike in Howth](/images/HikeHowth.jpg "A more recent hike in Howth")
+![Photograph of the lab on a hike in Howth]({{ '/images/HikeHowth.jpg' | relative_url }} "A more recent hike in Howth")

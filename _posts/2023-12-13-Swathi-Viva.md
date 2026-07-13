@@ -12,4 +12,4 @@ Congratulations to Dr. Swathi Upadhya, who successfully defended her thesis 'On 
 `
 Many thanks to the external examiner, [Prof. Oliver Kohlbacher](https://kohlbacherlab.org/oliver_kohlbacher/) and internal examiner, [Assoc. Prof. Dere Greene](http://derekgreene.com/). Thanks also to [Dr. Andrew Hines](https://people.ucd.ie/andrew.hines) for chairing the viva and making sure everything ran smoothly.
 
-![Swathi post-Viva](/images/SwathiViva.jpg "Swathi with the lab after her viva")
+![Swathi post-Viva]({{ '/images/SwathiViva.jpg' | relative_url }} "Swathi with the lab after her viva")

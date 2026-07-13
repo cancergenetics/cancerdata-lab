@@ -12,4 +12,4 @@ Thomas has been a member of the [Bond](https://www.ucd.ie/sbi/team/groups/bondgr
 
 Many thanks to the external examiner, [Dr. David O'Connor](https://iris.ucl.ac.uk/iris/browse/profile?upi=DKOCO07), and internal examiner, [Assoc. Prof. Rory Johnson](https://www.gold-lab.org/). Thanks also to [Dr. Melinda Halasz](https://www.ucd.ie/sbi/team/groups/halaszgroup/) for chairing the viva and making sure everything ran smoothly.
 
-![Thomas post-Viva](/images/IrishTomas.jpg "Thomas after his Viva, dressed as his Irish alter-ego Tomás MacGabhann")
+![Thomas post-Viva]({{ '/images/IrishTomas.jpg' | relative_url }} "Thomas after his Viva, dressed as his Irish alter-ego Tomás MacGabhann")

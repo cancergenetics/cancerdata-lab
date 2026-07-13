@@ -55,6 +55,12 @@ $wrap: 800px;
 
 .post-excerpt-text > p {
   width: 100%;
+  // keep every card a uniform height so the thumbnail never becomes a thin slice
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 @container (max-width: #{$wrap}) {
