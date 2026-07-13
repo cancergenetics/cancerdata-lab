@@ -5,6 +5,7 @@
 # ---- 2026 ----
 - id: doi:10.1093/nargab/lqaf214   # mir-2026-nfcore-crisprseq (NAR Genom Bioinform)
 - id: doi:10.64898/2026.01.19.700065   # kebabci-2026-predicted (bioRxiv)
+  publisher: bioRxiv   # openRxiv rebrand -> keep bioRxiv label
 # ---- 2025 ----
 - id: doi:10.1093/nargab/lqaf129   # ajmal-2025-benchmarking (published; was bioRxiv preprint)
 - id: doi:10.1093/nargab/lqaf051   # dennler-2025-evaluating (published; was 2024 bioRxiv preprint)
@@ -15,7 +16,9 @@
 - id: doi:10.1182/bloodadvances.2024015408   # lefeivre-2025-reduced (Blood Advances)
 - id: doi:10.1002/pmic.70045   # mckeever-2025-response (Proteomics)
 - id: doi:10.1101/2025.08.28.672871   # tudose-2025-diverse (bioRxiv)
+  publisher: bioRxiv   # openRxiv rebrand -> keep bioRxiv label
 - id: doi:10.64898/2025.12.09.692982   # rainey-2025-cdc7 (bioRxiv)
+  publisher: bioRxiv   # openRxiv rebrand -> keep bioRxiv label
 # ---- 2023 ----
 - id: doi:10.15252/msb.202311987   # de-2022-paralog
 - id: doi:10.1007/978-3-031-30065-3_2   # pettitt-2023-parp
