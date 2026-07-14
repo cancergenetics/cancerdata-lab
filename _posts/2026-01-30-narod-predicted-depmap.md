@@ -1,6 +1,8 @@
 ---
 title: "Narod's preprint on a predicted cancer dependency map for paralog pairs"
 date: 2026-01-30
+image: images/NarodWorkflow.jpg
+image_alt: "The prediction framework: labelled synthetic-lethal and non-synthetic-lethal paralog pairs are described using paralog features (expression, essentiality) and network features (protein–protein interactions and Gene Ontology), then scored by a context-specific random forest and evaluated with ROC and precision–recall curves."
 author: colm
 ---
 
