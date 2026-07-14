@@ -23,17 +23,17 @@
 }
 
 :root {
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Montserrat", sans-serif;
+  --heading: "Montserrat", sans-serif;
+  --body: "Roboto", sans-serif;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
-  --thin: 200;
+  --thin: 300;
   --regular: 400;
   --semi-bold: 500;
-  --bold: 600;
+  --bold: 700;
   --spacing: 2;
   --compact: 1.5;
   --rounded: 3px;
