@@ -93,5 +93,16 @@
     height: 180px;
   }
 }
+.citation-altmetric {
+  flex-shrink: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.citation-altmetric:empty {
+  display: none;
+}
 
 /*# sourceMappingURL=citation.css.map */
