@@ -1,6 +1,8 @@
 main.home > section {
   align-self: stretch;
   width: 100%;
+  padding-left: max(40px, (100% - 1300px) / 2);
+  padding-right: max(40px, (100% - 1300px) / 2);
 }
 
 main.home > section:first-of-type {
