@@ -7,6 +7,11 @@
 main.home > section {
   align-self: stretch;
   width: 100%;
+  // widen the homepage content (1000px -> 1300px) so the hero text starts
+  // nearer the left and the logo/news fill the width, like the old site —
+  // much less dead space on wide screens
+  padding-left: max(40px, calc((100% - 1300px) / 2));
+  padding-right: max(40px, calc((100% - 1300px) / 2));
 }
 
 // homepage hero on a grey band (separates it from the white header), news on white
