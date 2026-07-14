@@ -1,6 +1,11 @@
 ---
 ---
 
+html {
+  // larger base size, closer to the old site (~18px body text)
+  font-size: 115%;
+}
+
 body {
   display: flex;
   flex-direction: column;
