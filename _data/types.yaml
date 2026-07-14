@@ -224,3 +224,8 @@ package:
   icon: fa-solid fa-box
   text: Package
   tooltip: Package
+
+video:
+  icon: fa-solid fa-film
+  text: Video
+  tooltip: Video

@@ -8,9 +8,27 @@
   publisher: bioRxiv   # openRxiv rebrand -> keep bioRxiv label
 # ---- 2025 ----
 - id: doi:10.1093/nargab/lqaf129   # ajmal-2025-benchmarking (published; was bioRxiv preprint)
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/Benchmarking-GI-Scores
+    - type: data
+      text: Data
+      link: https://figshare.com/s/183520dde2e683ea9053
 - id: doi:10.1093/nargab/lqaf051   # dennler-2025-evaluating (published; was 2024 bioRxiv preprint)
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/paralog_seq_similarity
+    - type: data
+      text: Data
+      link: https://zenodo.org/records/13838296
 - id: doi:10.1038/s41588-025-02222-1   # chan-2025 (CDS1/CDS2, Nature Genetics)
 - id: doi:10.1038/s44320-025-00122-4   # venkatesh-2025-compensation (published; was 2024 preprint)
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/proteomic_paralog_compensation
 - id: doi:10.1038/s41573-025-01273-7   # goncalves-2025-synthetic (Nat Rev Drug Discov)
 - id: doi:10.1186/s13059-025-03737-w   # harle-2025-compendium (Genome Biology)
 - id: doi:10.1182/bloodadvances.2024015408   # lefeivre-2025-reduced (Blood Advances)
@@ -21,16 +39,43 @@
   publisher: bioRxiv   # openRxiv rebrand -> keep bioRxiv label
 # ---- 2023 ----
 - id: doi:10.15252/msb.202311987   # de-2022-paralog
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/paralog_HDs
 - id: doi:10.1007/978-3-031-30065-3_2   # pettitt-2023-parp
 - id: doi:10.1016/j.cels.2023.04.005   # ryan-2023-gi
 - id: doi:10.1038/s41588-023-01557-x   # ryan-2023-sl
 - id: doi:10.1016/j.trecan.2023.02.002   # ryan-2023-targeting
 - id: doi:10.1093/narcan/zcad056   # tudose-2023-GNR
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/GRN_activity_corr_essentiality
 - id: doi:10.26508/lsa.202201885   # upadhya-2023-antibody
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/antibody_quality_limitations
 # ---- 2022 ----
 - id: doi:10.1016/j.crmeth.2022.100288   # upadhya-2021-experimental
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/limitations_of_omics_reproducibility
+    - type: video
+      link: https://jrnlclub.org/research-films/mrna-protein-reproducibility
 # ---- 2021 ----
 - id: doi:10.1016/j.cels.2021.08.006   # de-2021-comprehensive
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/paralog_SL_prediction
+    - type: data
+      text: Predictions & Supplementary Data
+      link: http://www.cancergd.org/static/paralogs/SHAP_charts.html
+    - type: video
+      link: https://jrnlclub.org/research-films/prediction-synthetic-cancer
 - id: doi:10.1016/j.ctarc.2021.100376   # marcone-2021-proteomic
 - id: doi:10.1371/journal.pgen.1009354   # parkhitko-2021-cross
 # ---- 2020 ----
@@ -51,8 +96,19 @@
 - id: doi:10.1016/j.trecan.2018.08.003   # ryan-2018-synthetic
 # ---- 2017 ----
 - id: doi:10.1016/j.cels.2017.06.002   # bridgett-2017-cancergd
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/cancergd
 - id: doi:10.1101/gad.295287.116   # nissen-2017-histone
 - id: doi:10.1016/j.cels.2017.09.011   # ryan-2017-compendium
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/cancergenetics/brca-core
+    - type: data
+      text: Dataset
+      link: http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD007543
 # ---- 2016 ----
 - id: doi:10.1016/j.celrep.2016.02.023   # campbell-2016-large
 - id: doi:10.1038/ncomms13837   # williamson-2016-atr

@@ -101,3 +101,16 @@ $wrap: 800px;
     height: $thumb-size;
   }
 }
+
+// Altmetric donut badge, pushed to the right of each citation (like the old site)
+.citation-altmetric {
+  flex-shrink: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.citation-altmetric:empty {
+  display: none;
+}

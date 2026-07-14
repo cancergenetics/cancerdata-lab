@@ -113,5 +113,17 @@
         {% endif %}
       {% endif %}
     </div>
+
+    {% if citation.id contains "doi:" %}
+      {% assign doi = citation.id | remove: "doi:" %}
+      <div class="citation-altmetric">
+        <div
+          class="altmetric-embed"
+          data-doi="{{ doi }}"
+          data-badge-type="donut"
+          data-badge-popover="left"
+        ></div>
+      </div>
+    {% endif %}
   </div>
 </div>
