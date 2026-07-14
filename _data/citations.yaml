@@ -43,6 +43,13 @@
   publisher: NAR Genomics and Bioinformatics
   date: '2025-07-04'
   link: https://doi.org/hb98x7
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/Benchmarking-GI-Scores
+  - type: data
+    text: Data
+    link: https://figshare.com/s/183520dde2e683ea9053
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1093/nargab/lqaf051
@@ -54,6 +61,13 @@
   publisher: NAR Genomics and Bioinformatics
   date: '2025-03-29'
   link: https://doi.org/hb98x8
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/paralog_seq_similarity
+  - type: data
+    text: Data
+    link: https://zenodo.org/records/13838296
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41588-025-02222-1
@@ -117,6 +131,10 @@
   publisher: Molecular Systems Biology
   date: '2025-05-28'
   link: https://doi.org/hb98x3
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/proteomic_paralog_compensation
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41573-025-01273-7
@@ -241,6 +259,10 @@
   publisher: Molecular Systems Biology
   date: '2023-11-14'
   link: https://doi.org/hb98ss
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/paralog_HDs
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/978-3-031-30065-3_2
@@ -298,6 +320,10 @@
   publisher: NAR Cancer
   date: '2023-10-11'
   link: https://doi.org/hb98sw
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/GRN_activity_corr_essentiality
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.26508/lsa.202201885
@@ -309,6 +335,10 @@
   publisher: Life Science Alliance
   date: '2023-05-11'
   link: https://doi.org/gt3ttb
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/antibody_quality_limitations
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.crmeth.2022.100288
@@ -320,6 +350,12 @@
   publisher: Cell Reports Methods
   date: '2022-09-01'
   link: https://doi.org/gqtvfv
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/limitations_of_omics_reproducibility
+  - type: video
+    link: https://jrnlclub.org/research-films/mrna-protein-reproducibility
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.cels.2021.08.006
@@ -334,6 +370,15 @@
   publisher: Cell Systems
   date: '2021-12-01'
   link: https://doi.org/grvnc6
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/paralog_SL_prediction
+  - type: data
+    text: Predictions & Supplementary Data
+    link: http://www.cancergd.org/static/paralogs/SHAP_charts.html
+  - type: video
+    link: https://jrnlclub.org/research-films/prediction-synthetic-cancer
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ctarc.2021.100376
@@ -673,6 +718,10 @@
   publisher: Cell Systems
   date: '2017-07-01'
   link: https://doi.org/hb98s4
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/cancergd
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/gad.295287.116
@@ -702,6 +751,13 @@
   publisher: Cell Systems
   date: '2017-10-01'
   link: https://doi.org/hb98s5
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/cancergenetics/brca-core
+  - type: data
+    text: Dataset
+    link: http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD007543
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.celrep.2016.02.023
