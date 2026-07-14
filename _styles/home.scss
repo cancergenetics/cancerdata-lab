@@ -55,15 +55,26 @@ main.home > section:first-of-type .cols img {
 }
 
 // clean teaser cards: image, title, excerpt only (like the old site)
+.home-news {
+  align-items: start; // cards size to their own content, no stretching
+}
+
 .home-news .post-excerpt {
   margin: 0;
-  height: 100%;
   flex-direction: column;
 }
 
+// show the whole image scaled to card width (no cropping), like the old site
 .home-news .post-excerpt-image {
-  width: unset;
-  height: 180px;
+  position: static;
+  width: 100%;
+  height: auto;
+}
+
+.home-news .post-excerpt-image img {
+  position: static;
+  width: 100%;
+  height: auto;
 }
 
 .home-news .post-info {
