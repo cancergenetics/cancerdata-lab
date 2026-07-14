@@ -3,6 +3,7 @@ name: Faith Ogundimu
 image: images/members/faith.jpg
 role: intern
 affiliation: University College Dublin
+group: alumni
 aliases:
   - F. Ogundimu
 links:

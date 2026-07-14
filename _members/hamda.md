@@ -3,6 +3,7 @@ name: Hamda Ajmal
 image: images/members/hamda.jpg
 role: postdoc
 affiliation: University College Dublin
+group: alumni
 aliases:
   - Hamda Binte Ajmal
   - H. Ajmal

@@ -3,6 +3,7 @@ name: Anjan Venkatesh
 image: images/members/anjan.jpg
 role: phd
 affiliation: University College Dublin
+group: alumni
 aliases:
   - A. Venkatesh
 links:
