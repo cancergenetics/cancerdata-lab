@@ -6,6 +6,10 @@
 - id: doi:10.1093/nargab/lqaf214   # mir-2026-nfcore-crisprseq (NAR Genom Bioinform)
 - id: doi:10.64898/2026.01.19.700065   # kebabci-2026-predicted (bioRxiv)
   publisher: bioRxiv   # openRxiv rebrand -> keep bioRxiv label
+  buttons:
+    - type: data
+      text: Data
+      link: https://doi.org/10.6084/m9.figshare.31058182
 # ---- 2025 ----
 - id: doi:10.1093/nargab/lqaf129   # ajmal-2025-benchmarking (published; was bioRxiv preprint)
   buttons:
