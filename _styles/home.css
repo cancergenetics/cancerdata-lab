@@ -39,15 +39,25 @@ main.home > section:first-of-type .cols img {
     grid-template-columns: 1fr;
   }
 }
+.home-news {
+  align-items: start;
+}
+
 .home-news .post-excerpt {
   margin: 0;
-  height: 100%;
   flex-direction: column;
 }
 
 .home-news .post-excerpt-image {
-  width: unset;
-  height: 180px;
+  position: static;
+  width: 100%;
+  height: auto;
+}
+
+.home-news .post-excerpt-image img {
+  position: static;
+  width: 100%;
+  height: auto;
 }
 
 .home-news .post-info {
