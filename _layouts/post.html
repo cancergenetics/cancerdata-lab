@@ -12,10 +12,8 @@ layout: default
 %}
 
 {% if page.image %}
-  {% include figure.html image=page.image link=page.image %}
+  {% include figure.html image=page.image caption=page.image_alt link=page.image %}
 {% endif %}
-
-{% include section.html %}
 
 {{ content }}
 
