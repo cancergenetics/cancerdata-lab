@@ -30,6 +30,10 @@
   publisher: bioRxiv
   date: '2026-01-19'
   link: https://doi.org/hb98x6
+  buttons:
+  - type: data
+    text: Data
+    link: https://doi.org/10.6084/m9.figshare.31058182
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1093/nargab/lqaf129
